@@ -3,7 +3,7 @@ CREATE TABLE Room (
     roomID INT PRIMARY KEY AUTO_INCREMENT,
     room_number INT NOT NULL,
     room_typeID INT NOT NULL,
-    amenities VARCHAR(40) NOT NULL,
+    amenities VARCHAR(40),
     ada_accessible VARCHAR(5) NOT NULL,
     standard_occupancy INT NOT NULL,
     maximun_occupancy INT NOT NULL,
