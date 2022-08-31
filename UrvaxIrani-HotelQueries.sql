@@ -1,4 +1,4 @@
-USE HotelDB;
+USE `urvaxirani-hotelqueries`;
 
 -- 1. Write a query that returns a list of reservations that end in July 2023, including the name of the guest, the room number(s), and the reservation dates.
 SELECT `name`, room_number, start_date, end_date 
